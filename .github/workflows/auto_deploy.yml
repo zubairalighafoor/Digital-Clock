@@ -27,7 +27,6 @@ jobs:
           version: 12 
 
       # Runs a set of commands using the runners shell
-      - name: Installing
       - name: build
          run: npm run build
       - name: Installing Surge
